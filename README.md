@@ -57,7 +57,8 @@ npm install
 Run:
 
 ```bash
-node server.js
+cd backend
+npm start
 ```
 
 Open:
@@ -65,3 +66,12 @@ Open:
 ```text
 http://localhost:3000
 ```
+
+
+# Smart Home Device Manager
+
+## Preview
+
+![Preview](screenshots/preview.png)
+
+A simple Smart Home Device Management web application...
