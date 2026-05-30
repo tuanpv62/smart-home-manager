@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>
+
+Smart Home Manager
+
+</title>
+
+<link
+rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>
+
+🏠 Smart Home Manager
+
+</h1>
+
+<p>
+
+Manage your smart devices
+
+</p>
+
+</header>
+
+
+<section class="toolbar">
+
+<input
+
+id="search"
+
+placeholder="Search devices..."
+
+>
+
+</section>
+
+
+<section class="form-card">
+
+<h2 id="formTitle">
+
+Add Device
+
+</h2>
+
+<form id="deviceForm">
+
+<input
+id="name"
+placeholder="Device Name"
+required>
+
+
+<input
+id="type"
+placeholder="Device Type"
+required>
+
+
+<select id="status">
+
+<option value="ON">
+
+ON
+
+</option>
+
+<option value="OFF">
+
+OFF
+
+</option>
+
+</select>
+
+
+<button id="submitBtn">
+
+Save Device
+
+</button>
+
+</form>
+
+</section>
+
+
+<section>
+
+<div
+id="deviceList"
+class="device-grid">
+
+</div>
+
+</section>
+
+</div>
+
+<script src="js/api.js"></script>
+
+<script src="js/ui.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
