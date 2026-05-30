@@ -2,6 +2,14 @@
 
 A simple Smart Home Device Management web application built with Express and Vanilla JavaScript.
 
+# Smart Home Device Manager
+
+## Preview
+
+![Preview](screenshots/preview.png)
+
+A simple Smart Home Device Management web application...
+
 ## Features
 
 * View device list
@@ -68,10 +76,3 @@ http://localhost:3000
 ```
 
 
-# Smart Home Device Manager
-
-## Preview
-
-![Preview](screenshots/preview.png)
-
-A simple Smart Home Device Management web application...
